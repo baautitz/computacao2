@@ -1,7 +1,7 @@
 Como segunda forma de identificar se um número é par ou é ímpar, utilizei um operador bitwise AND (&). 
 
 Como funciona? 
-Sabemos que para o computador todos os dados são uma seqûencia de binários. Se pegarmos o número digitado 
+Sabemos que para o computador todos os dados são uma sequência de binários. Se pegarmos o número digitado 
 pelo usuário e convertemos para binário e realizarmos uma operação de AND com número 1 conforme diz a disciplina 
 de lógica, caso um número ímpar seja digitado, o resultado será sempre 1, e, se for par, será 0.
 
