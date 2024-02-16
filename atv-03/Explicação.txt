@@ -1,0 +1,24 @@
+Como segunda forma de identificar se um número é par ou é ímpar, utilizei um operador bitwise AND (&). 
+
+Como funciona? 
+Sabemos que para o computador todos os dados são uma seqûencia de binários. Se pegarmos o número digitado 
+pelo usuário e convertemos para binário e realizarmos uma operação de AND com número 1 conforme diz a disciplina 
+de lógica, caso um número ímpar seja digitado, o resultado será sempre 1, e, se for par, será 0.
+
+Por exemplo, com o número "7": se representarmos ele em um binário de 4 bits, será convertido para 0111.
+
+Realizando a operação AND:
+
+	0111 (Número 7 em binário de 4 bits)
+	0001 (Número 1 em binário de 4 bits)
+       ------
+	0001 (Resultado após realizar a operação AND)
+
+Agora, com o número "8":
+
+	1000 (Número 8 em binário de 4 bits)
+	0001 (Número 1 em binário de 4 bits)
+       ------
+	0000 (Resultado após realizar a operação AND)
+
+Em resumo, o código apenas verifica o retorno da operação comparando dois número em binário utilizando o operador bitwise AND.
